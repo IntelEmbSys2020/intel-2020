@@ -40,8 +40,8 @@
 3. 电源
 4. 无线充电
 5. 语音合成模块
-6. 语音合成SDK
-7. 电量检测
+6. 电量检测
+7. 语音合成SDK
 
 陈：
 
@@ -84,20 +84,62 @@
 
 ### 定位通信
 
-1. 学长推荐的定位通信[二合一模块](http://www.openluat.com/Product/gnssgprs/Air800.html)
-2. 淘宝买双频模块+通信模块[NB-IOT](https://detail.tmall.com/item.htm?id=602693366424&price=18-69&sourceType=item&sourceType=item&suid=e2614846-4394-4e58-9aec-b84cdbbfe5ec&shareUniqueId=1304861063&ut_sk=1.XmxMu9Ues2gDAKUWAWAfAl73_21646297_1592976011846.Copy.1&un=84fe8c086325801f0f8768acc41474bb&share_crt_v=1&spm=a2159r.13376460.0.0&sp_tk=4oKsZzF6czFFU3M5SXTigqw=&cpp=1&shareurl=true&short_name=h.VpijOXg&sm=d986e8&app=chrome)
+1. 学长推荐的定位通信[二合一模块](http://www.openluat.com/Product/gnssgprs/Air800.html)。使用GPRS+GPS，考虑到今年年底2G会被全拆掉，暂时不考虑该方案
+2. 淘宝买二合一通信定位模块[NB-IOT+Beidou](https://detail.tmall.com/item.htm?id=602693366424&price=18-69&sourceType=item&sourceType=item&suid=e2614846-4394-4e58-9aec-b84cdbbfe5ec&shareUniqueId=1304861063&ut_sk=1.XmxMu9Ues2gDAKUWAWAfAl73_21646297_1592976011846.Copy.1&un=84fe8c086325801f0f8768acc41474bb&share_crt_v=1&spm=a2159r.13376460.0.0&sp_tk=4oKsZzF6czFFU3M5SXTigqw=&cpp=1&shareurl=true&short_name=h.VpijOXg&sm=d986e8&app=chrome)
+3. 北斗定位模块+NB-IoT通信模块。该方案主要优势为：目前二合一模块都是2.5m精度，若采用分离方案可以选择精度更高的双频双模定位，1.2m精度
+
+待完成工作
+
+- [ ] 模块购买
+- [ ] 天线设计
+- [ ] 模块电源设计
+- [ ] 模块驱动程序
+- [ ] 云服务器转接
 
 ### 无人机
 
 1. 基地嫖机械结构+电机
 2. 淘宝买飞控
 
+待完成工作
+
+- [ ] 基地无人机型号挑选
+- [ ] 电机白嫖or购买
+- [ ] 无人机电池和充电器
+- [ ] 无人机开源飞控选型
+- [ ] 无人机飞行调试
+
 ### 喊话
 
-1. SDK+USB音响
+1. 百度SDK+USB音响
 2. UART+语音合成模块+功放（PlanB）
+
+待完成工作
+
+- [ ] 确认开发板是否有音频接口
+
+### 电源板
+
+- [ ] 开发板供电（待确认）
+- [ ] 飞控供电
+- [ ] 电机供电
+- [ ] 电池电量检测
+- [ ] 上位机通信（报告电源情况）
+- [ ] 无线充电模式
 
 ### 无线充电
 
 1. 视觉对准（摄像头）
 2. 淘宝模块100W[24V4A模块](https://m.tb.cn/h.Vp5gQER?sm=6e354)，注意：模块小于7mm距离烧坏
+
+待完成工作
+
+- [ ] 模块购买
+- [ ] 模块充电测试（记录模块实际工作数据）
+
+### 视觉
+
+- [ ] 开发板接口确认（3.5mm音频+USB3+供电方式）
+- [ ] 摄像头挑选
+- [ ] 平台搭建、操作系统安装
+- [ ] 摄像头驱动适配
