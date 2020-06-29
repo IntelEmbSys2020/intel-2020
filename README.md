@@ -70,6 +70,8 @@
 
 ## 软件细节
 
+> 注意使用OpenVino加速,[教程](https://software.intel.com/content/www/cn/zh/develop/topics/iot/training/go-to-market-with-openvino.html?cid=em&source=elo&campid=iags_PRC_iagsdrsiot_ZH-Hans_2020_IoT20_Campaign_C-MKA-16416_T-MKA-17806&content=iags_PRC_iagsdrsiot_EMN_ZH-Hans_2020_IoT_1_C-MKA-16416_T-MKA-17806&elq_cid=6499999&em_id=56207&elqrid=92280acaff7d410885706fb331104a4e&elqcampid=37215&erpm_id=9621834)
+
 ### 场景假设
 
 1. 室内
