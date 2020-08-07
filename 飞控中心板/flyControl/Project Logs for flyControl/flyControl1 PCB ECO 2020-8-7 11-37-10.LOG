@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GNDA Pin=XH1-1
+Removed Pin From Net: NetName=BAT Pin=XH1-2
+Added Pin To Net: NetName=BAT Pin=XH1-1
+Added Pin To Net: NetName=GNDA Pin=XH1-2
