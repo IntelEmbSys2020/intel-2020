@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [flyControl.PrjPcb]
+   Generated File[flyControl1-RoundHoles.TXT]
+   Generated File[flyControl1-SlotHoles.TXT]
+   Generated File[flyControl1.LDP]
+   Generated File[flyControl1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 8:28:33 On 2020/8/12
